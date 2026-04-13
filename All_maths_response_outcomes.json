@@ -1,0 +1,2402 @@
+{
+    "batch_0_question_297": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_12": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_172": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_253": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_256": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_22": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_243": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_72": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_154": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_74": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_48": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_120": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_184": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_108": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_200": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_201": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_4": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_231": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_88": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_267": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_144": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_118": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_57": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_15": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_205": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_204": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_189": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_180": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_80": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_25": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_40": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_155": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_50": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_195": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_58": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_223": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_218": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_53": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_187": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_276": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_289": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_262": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_238": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_252": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_62": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_254": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_264": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_287": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_65": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_237": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_261": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_211": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_115": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_221": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_196": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_263": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_220": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_84": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_61": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_0_question_248": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_155": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_188": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_21": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_96": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_32": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_209": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_191": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_271": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_12": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_207": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_282": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_284": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_227": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_274": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_251": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_142": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_33": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_206": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_10": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_169": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_276": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_287": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_54": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_263": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_199": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_58": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_238": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_16": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_173": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_210": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_15": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_125": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_244": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_223": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_23": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_50": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_75": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_109": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_236": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_14": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_185": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_148": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_297": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_70": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_161": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_131": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_98": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_220": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_165": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_49": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_292": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_189": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_56": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_144": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_117": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_240": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_261": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_116": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_235": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_1_question_44": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_281": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_196": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_185": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_90": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_168": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_258": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_59": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_1": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_231": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_153": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_45": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_21": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_260": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_19": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_261": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_246": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_244": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_62": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_283": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_142": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_70": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_251": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_23": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_63": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_68": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_101": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_249": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_221": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_46": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_20": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_108": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_53": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_162": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_114": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_262": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_214": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_41": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_151": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_234": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_282": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_104": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_26": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_160": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_206": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_297": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_276": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_78": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_119": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_111": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_82": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_291": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_69": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_124": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_237": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_210": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_277": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_38": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_191": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_7": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_2_question_139": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_66": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_89": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_192": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_266": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_95": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_141": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_160": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_159": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_241": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_208": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_254": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_16": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_13": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_108": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_39": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_2": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_51": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_216": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_288": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_154": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_227": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_299": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_93": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_44": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_147": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_232": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_236": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_114": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_100": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_279": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_97": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_217": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_292": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_219": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_166": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_273": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_205": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_34": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_148": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_253": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_57": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_112": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_275": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_103": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_132": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_173": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_229": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_150": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_77": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_9": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_175": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_106": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_289": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_226": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_118": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_199": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_260": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_134": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_250": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_3_question_190": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_146": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_125": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_150": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_254": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_5": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_93": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_277": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_66": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_156": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_230": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_132": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_1": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_3": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_211": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_266": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_200": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_47": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_138": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_114": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_91": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_28": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_165": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_208": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_10": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_297": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_183": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_82": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_92": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_287": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_4": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_198": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_85": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_37": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_78": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_14": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_222": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_284": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_45": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_182": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_84": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_131": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_299": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_72": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_244": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_141": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_272": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_80": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_191": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_143": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_13": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_71": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_118": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_39": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_262": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_181": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_69": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_186": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_53": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_87": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_4_question_135": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_113": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_93": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_60": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_169": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_24": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_61": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_18": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_27": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_278": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_240": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_234": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_173": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_251": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_171": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_21": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_38": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_80": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_97": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_164": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_12": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_41": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_118": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_1": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_213": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_286": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_28": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_140": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_235": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_157": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_248": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_268": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_183": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_40": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_138": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_98": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_275": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_263": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_42": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_62": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_222": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_287": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_19": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_212": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_133": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_143": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_284": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_155": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_153": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_129": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_218": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_244": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_223": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_77": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_214": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_253": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_31": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_267": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_281": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_252": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_5_question_132": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_129": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_231": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_186": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_173": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_181": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_167": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_168": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_59": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_44": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_288": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_229": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_130": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_109": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_276": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_20": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_164": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_135": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_39": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_273": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_183": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_94": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_69": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_125": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_146": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_151": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_195": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_24": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_105": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_189": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_142": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_68": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_81": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_179": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_74": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_197": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_264": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_207": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_60": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_106": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_27": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_260": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_104": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_66": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_53": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_150": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_140": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_158": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_38": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_118": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_170": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_99": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_92": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_143": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_11": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_90": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_205": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_275": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_285": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_43": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_6_question_218": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_121": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_67": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_243": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_247": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_64": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_34": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_233": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_103": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_57": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_13": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_237": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_9": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_139": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_28": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_6": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_287": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_137": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_167": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_23": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_208": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_74": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_3": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_110": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_199": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_24": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_65": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_283": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_10": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_235": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_201": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_105": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_81": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_165": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_194": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_86": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_47": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_126": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_263": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_253": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_295": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_91": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_15": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_205": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_180": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_210": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_214": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_54": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_280": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_281": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_66": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_134": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_225": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_150": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_216": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_5": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_200": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_236": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_162": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_168": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_7_question_41": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_136": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_135": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_262": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_199": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_126": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_261": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_111": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_50": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_160": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_259": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_252": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_276": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_288": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_67": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_87": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_171": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_222": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_93": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_23": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_208": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_44": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_290": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_211": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_34": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_292": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_230": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_94": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_36": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_194": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_265": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_104": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_120": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_75": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_231": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_266": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_64": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_210": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_286": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_247": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_212": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_256": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_161": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_245": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_283": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_38": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_243": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_182": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_299": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_282": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_293": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_102": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_109": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_151": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_219": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_174": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_91": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_200": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_226": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_49": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_8_question_69": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_112": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_235": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_180": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_67": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_137": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_281": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_48": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_59": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_268": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_179": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_122": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_187": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_140": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_91": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_139": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_144": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_65": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_175": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_43": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_297": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_256": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_290": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_113": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_110": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_14": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_131": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_270": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_32": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_36": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_72": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_117": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_126": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_276": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_81": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_109": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_283": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_121": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_23": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_251": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_51": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_95": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_278": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_49": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_21": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_165": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_182": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_295": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_46": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_226": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_249": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_66": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_99": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_79": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_221": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_176": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_189": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_259": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_76": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_101": {
+        "response": "showPred",
+        "variant": "algLinUCB_0.9"
+    },
+    "batch_9_question_19": {
+        "response": "defer",
+        "variant": "algLinUCB_0.9"
+    }
+}

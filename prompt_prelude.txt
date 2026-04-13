@@ -1,0 +1,19 @@
+"prompt": "The following are multiple choice questions about elementary mathematics.\n
+Colton and his dad bought a gallon of paint that cost $13. They also bought 2 brushes that cost $9 each. What was the total cost, not including tax, of the brushes and the paint they bought?\n
+(A) $22, (B) $24, (C) $31, (D) $35\n
+Answer: C\n
+Solve for y. y – 2 + 3y = 10\n
+(A) 2, (B) 3, (C) 4, (D) 5\n
+Answer: B\n
+Solve 3 over 2 * w = 66.\n
+(A) 33, (B) 44, (C) 88, (D) 99\n
+Answer: B\n
+Write 5.875 as a mixed number or fraction in simplest form.\n
+(A) 5 and 8 over 9, (B) 5 and 7 over 8, (C) 7 over 8, (D) 5 and 87 over 105\n
+Answer: B\n
+Solve the equation 124 = m + 34.\n
+(A) 158, (B) 90, (C) 88, (D) 4,216\n
+Answer: B\n
+Zelma buys p pounds of bananas for 40 cents per pound. She pays the clerk with a twenty-dollar bill. The clerk subtracts the total cost of the bananas from the twenty-dollar bill to determine the amount of change to give Zelma. Which expression represents the amount of change Zelma should receive?\n
+(A) p - 20, (B) 20 - 40p, (C) 20 - 0.40p, (D) 0.40p - 20\n
+Answer: C\n"

@@ -1,0 +1,13 @@
+{
+  "experiment": {
+    "name": "nli_orchestration_var_2",
+    "fullpath": "Mihir_Upadhyay/nli_orchestration_var_2",
+    "saveIncompleteResults": true,
+    "saveFormat": "csv",
+    "license": "MIT License",
+    "status2": "active"
+  },
+  "pavlovia": {
+    "URL": "https://pavlovia.org"
+  }
+}

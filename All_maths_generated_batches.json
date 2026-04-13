@@ -1,0 +1,3062 @@
+[
+    {
+        "batch_index": 0,
+        "user_id": "user983",
+        "questions": [
+            {
+                "question_index": 297,
+                "answer": "C",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 12,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 172,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 253,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 256,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 22,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 243,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 72,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 154,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 74,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 48,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 120,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 184,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 108,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 200,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 201,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 4,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 231,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 88,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 267,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 144,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 118,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 57,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 15,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 205,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 204,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 189,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 180,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 80,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 25,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 40,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 155,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 50,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 195,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 58,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 223,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 218,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 53,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 187,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 289,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 262,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 238,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 252,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 62,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 254,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 264,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 287,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 65,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 237,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 261,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 211,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 115,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 221,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 196,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 263,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 220,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 84,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 61,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 248,
+                "answer": "B",
+                "previous_human_response": "D"
+            }
+        ]
+    },
+    {
+        "batch_index": 1,
+        "user_id": "user221",
+        "questions": [
+            {
+                "question_index": 155,
+                "answer": "C",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 188,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 21,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 96,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 32,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 209,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 191,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 271,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 12,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 207,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 282,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 284,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 227,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 274,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 251,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 142,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 33,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 206,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 10,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 169,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 287,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 54,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 263,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 199,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 58,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 238,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 16,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 173,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 210,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 15,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 125,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 244,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 223,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 23,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 50,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 75,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 109,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 236,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 14,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 185,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 148,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 297,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 70,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 161,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 131,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 98,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 220,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 165,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 49,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 292,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 189,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 56,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 144,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 117,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 240,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 261,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 116,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 235,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 44,
+                "answer": "C",
+                "previous_human_response": "A"
+            }
+        ]
+    },
+    {
+        "batch_index": 2,
+        "user_id": "user222",
+        "questions": [
+            {
+                "question_index": 281,
+                "answer": "D",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 196,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 185,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 90,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 168,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 258,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 59,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 1,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 231,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 153,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 45,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 21,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 260,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 19,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 261,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 246,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 244,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 62,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 283,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 142,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 70,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 251,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 23,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 63,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 68,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 101,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 249,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 221,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 46,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 20,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 108,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 53,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 162,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 114,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 262,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 214,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 41,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 151,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 234,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 282,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 104,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 26,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 160,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 206,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 297,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 78,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 119,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 111,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 82,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 291,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 69,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 124,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 237,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 210,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 277,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 38,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 191,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 7,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 139,
+                "answer": "B",
+                "previous_human_response": "D"
+            }
+        ]
+    },
+    {
+        "batch_index": 3,
+        "user_id": "user385",
+        "questions": [
+            {
+                "question_index": 66,
+                "answer": "A",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 89,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 192,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 266,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 95,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 141,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 160,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 159,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 241,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 208,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 254,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 16,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 13,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 108,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 39,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 2,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 51,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 216,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 288,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 154,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 227,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 299,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 93,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 44,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 147,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 232,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 236,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 114,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 100,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 279,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 97,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 217,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 292,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 219,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 166,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 273,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 205,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 34,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 148,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 253,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 57,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 112,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 275,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 103,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 132,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 173,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 229,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 150,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 77,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 9,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 175,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 106,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 289,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 226,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 118,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 199,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 260,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 134,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 250,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 190,
+                "answer": "A",
+                "previous_human_response": "D"
+            }
+        ]
+    },
+    {
+        "batch_index": 4,
+        "user_id": "user548",
+        "questions": [
+            {
+                "question_index": 146,
+                "answer": "A",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 125,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 150,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 254,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 5,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 93,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 277,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 66,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 156,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 230,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 132,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 1,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 3,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 211,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 266,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 200,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 47,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 138,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 114,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 91,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 28,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 165,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 208,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 10,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 297,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 183,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 82,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 92,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 287,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 4,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 198,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 85,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 37,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 78,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 14,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 222,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 284,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 45,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 182,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 84,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 131,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 299,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 72,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 244,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 141,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 272,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 80,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 191,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 143,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 13,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 71,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 118,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 39,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 262,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 181,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 69,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 186,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 53,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 87,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 135,
+                "answer": "C",
+                "previous_human_response": "B"
+            }
+        ]
+    },
+    {
+        "batch_index": 5,
+        "user_id": "user934",
+        "questions": [
+            {
+                "question_index": 113,
+                "answer": "A",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 93,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 60,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 169,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 24,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 61,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 18,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 27,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 278,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 240,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 234,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 173,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 251,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 171,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 21,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 38,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 80,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 97,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 164,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 12,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 41,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 118,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 1,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 213,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 286,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 28,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 140,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 235,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 157,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 248,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 268,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 183,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 40,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 138,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 98,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 275,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 263,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 42,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 62,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 222,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 287,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 19,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 212,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 133,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 143,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 284,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 155,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 153,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 129,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 218,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 244,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 223,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 77,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 214,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 253,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 31,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 267,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 281,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 252,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 132,
+                "answer": "B",
+                "previous_human_response": "C"
+            }
+        ]
+    },
+    {
+        "batch_index": 6,
+        "user_id": "user111",
+        "questions": [
+            {
+                "question_index": 129,
+                "answer": "C",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 231,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 186,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 173,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 181,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 167,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 168,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 59,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 44,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 288,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 229,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 130,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 109,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 20,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 164,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 135,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 39,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 273,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 183,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 94,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 69,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 125,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 146,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 151,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 195,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 24,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 105,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 189,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 142,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 68,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 81,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 179,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 74,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 197,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 264,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 207,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 60,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 106,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 27,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 260,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 104,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 66,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 53,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 150,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 140,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 158,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 38,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 118,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 170,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 99,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 92,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 143,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 11,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 90,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 205,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 275,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 285,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 43,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 218,
+                "answer": "A",
+                "previous_human_response": "A"
+            }
+        ]
+    },
+    {
+        "batch_index": 7,
+        "user_id": "user170",
+        "questions": [
+            {
+                "question_index": 121,
+                "answer": "B",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 67,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 243,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 247,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 64,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 34,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 233,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 103,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 57,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 13,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 237,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 9,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 139,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 28,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 6,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 287,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 137,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 167,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 23,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 208,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 74,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 3,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 110,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 199,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 24,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 65,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 283,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 10,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 235,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 201,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 105,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 81,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 165,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 194,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 86,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 47,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 126,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 263,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 253,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 295,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 91,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 15,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 205,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 180,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 210,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 214,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 54,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 280,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 281,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 66,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 134,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 225,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 150,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 216,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 5,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 200,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 236,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 162,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 168,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 41,
+                "answer": "D",
+                "previous_human_response": "B"
+            }
+        ]
+    },
+    {
+        "batch_index": 8,
+        "user_id": "user577",
+        "questions": [
+            {
+                "question_index": 136,
+                "answer": "B",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 135,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 262,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 199,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 126,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 261,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 111,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 50,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 160,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 259,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 252,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 288,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 67,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 87,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 171,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 222,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 93,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 23,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 208,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 44,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 290,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 211,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 34,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 292,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 230,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 94,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 36,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 194,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 265,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 104,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 120,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 75,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 231,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 266,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 64,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 210,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 286,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 247,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 212,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 256,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 161,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 245,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 283,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 38,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 243,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 182,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 299,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 282,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 293,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 102,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 109,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 151,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 219,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 174,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 91,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 200,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 226,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 49,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 69,
+                "answer": "A",
+                "previous_human_response": "A"
+            }
+        ]
+    },
+    {
+        "batch_index": 9,
+        "user_id": "user315",
+        "questions": [
+            {
+                "question_index": 112,
+                "answer": "B",
+                "previous_human_response": null
+            },
+            {
+                "question_index": 235,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 180,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 67,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 137,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 281,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 48,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 59,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 268,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 179,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 122,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 187,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 140,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 91,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 139,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 144,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 65,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 175,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 43,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 297,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 256,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 290,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 113,
+                "answer": "A",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 110,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 14,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 131,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 270,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 32,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 36,
+                "answer": "C",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 72,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 117,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 126,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 276,
+                "answer": "D",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 81,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 109,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 283,
+                "answer": "C",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 121,
+                "answer": "B",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 23,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 251,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 51,
+                "answer": "B",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 95,
+                "answer": "A",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 278,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 49,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 21,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 165,
+                "answer": "D",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 182,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 295,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 46,
+                "answer": "B",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 226,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 249,
+                "answer": "D",
+                "previous_human_response": "D"
+            },
+            {
+                "question_index": 66,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 99,
+                "answer": "C",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 79,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 221,
+                "answer": "A",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 176,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 189,
+                "answer": "A",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 259,
+                "answer": "B",
+                "previous_human_response": "A"
+            },
+            {
+                "question_index": 76,
+                "answer": "C",
+                "previous_human_response": "B"
+            },
+            {
+                "question_index": 101,
+                "answer": "D",
+                "previous_human_response": "C"
+            },
+            {
+                "question_index": 19,
+                "answer": "D",
+                "previous_human_response": "D"
+            }
+        ]
+    }
+]

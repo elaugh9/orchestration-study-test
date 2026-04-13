@@ -1,0 +1,778 @@
+var timeline = []
+// remove\ from questions and put a delay in buttons
+
+/* init connection with pavlovia.org */
+var pavlovia_init = {
+	type: "pavlovia",
+	command: "init"
+};
+timeline.push(pavlovia_init);
+
+// capture info from Prolific
+// help from: https://www.jspsych.org/overview/prolific/
+var prolific_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
+var study_id = jsPsych.data.getURLVariable('STUDY_ID');
+var session_id = jsPsych.data.getURLVariable('SESSION_ID');
+// subj id help from: https://www.jspsych.org/7.0/overview/data/index.html
+// generate a random subject ID with 15 characters
+var subject_id = jsPsych.randomization.randomID(15);
+jsPsych.data.addProperties({
+	subject: subject_id,
+	prolific_id: prolific_id,
+	study_id: study_id,
+	session_id: session_id
+});
+
+// function numberRange (start, end) {
+	// from: https://stackoverflow.com/questions/3895478/does-javascript-have-a-method-like-range-to-generate-a-range-within-the-supp
+	//return new Array(end - start).fill().map((d, i) => i + start);
+//}
+
+// modified snippet
+
+// console.log(variant_batches[0])
+
+function numberRange(start, end) {
+   
+    console.log(`start: ${start}, end: ${end}`);
+
+	if (end === undefined) {
+        end = start;
+        start = 0;
+    }
+    
+    if (typeof start !== 'number' || typeof end !== 'number') {
+        console.error("TypeError: Start and end must be numbers.");
+        throw new TypeError("Start and end must be numbers.");
+    }
+
+    if (end < start) {
+        console.error("RangeError: End must be greater than or equal to start.");
+        throw new RangeError("End must be greater than or equal to start.");
+    }
+
+    var length = end - start;
+    console.log(`Calculated length: ${length}`);
+
+    if (length < 0) {
+        console.error("Length cannot be negative.");
+        throw new RangeError("Invalid array length: length cannot be negative.");
+    }
+    
+    if (length > 4294967295) {
+        console.error("Length exceeds maximum array size.");
+        throw new RangeError("Invalid array length: exceeds maximum array size.");
+    }
+
+    return new Array(length).fill().map((_, i) => i + start);
+}
+
+// some flags mainly for internal debugging
+var official_run = true
+var no_server = true
+var simulate = false
+var impoversh_fp = false // this was a tag for impovershing the foreign policy category -- very specific to our case, ignore here / delete!
+
+// console.log(variant_batches.length)
+
+
+
+var main_variant = "diff-topics"//"pilot-separable-human-impovershed"
+// console.log(variant_batches[0])
+
+var batches = variant_batches[0][main_variant]
+
+console.log(batches.length)
+
+// pick a random condition for the subject at the start of the experiment
+// help from: https://www.jspsych.org/overview/prolific/
+// based on our total number of batches <--- note: can subset if we need to run some a few more
+var num_batches = 4
+
+// conditions are like "batch indexes"
+var conditions = numberRange(num_batches);
+var condition_num = jsPsych.randomization.sampleWithoutReplacement(conditions, 1)[0];
+
+// var condition_num = 18// 8
+
+console.log("condition: ", condition_num)
+
+// record the condition assignment
+jsPsych.data.addProperties({
+	condition: condition_num
+});
+
+// index into batched mixup images
+// javascript loading help from: https://github.com/jspsych/jsPsych/discussions/705
+var batchData = batches[String(condition_num)]
+
+var variant = batchData[0]["variant"]
+
+console.log("variant: ", variant)
+
+if (variant.includes("alg")){
+	no_server = false;
+} else {
+	no_server = true;
+}
+
+var numExamples = batchData.length
+// the examples are ordered so that the last T are class-balanced
+// shuffle the subsets
+// for text task, we balance here by topics
+
+// specific to MMLU -- we were class-balancing at the end
+// you can likely ignore
+var final_sample = 18
+var first_idxs = jsPsych.randomization.shuffle(numberRange(0, numExamples - final_sample))
+var final_idxs = jsPsych.randomization.shuffle(numberRange(numExamples - final_sample, numExamples))
+
+var ordered_idxs = first_idxs.concat(final_idxs)
+
+console.log(variant_batches[0])
+
+if (impoversh_fp){
+	main_variant = "impoversh_fp"
+}
+
+// record the condition assignment
+jsPsych.data.addProperties({
+	condition: condition_num
+});
+
+
+var options=["Yes", "No"]
+
+var classNames = ['A', 'B', 'C', 'D']
+
+var num_show = batchData.length //+ num_rerun
+
+var num_pages_per_img = 1 // to handle num pages per img
+
+var progress_bar_increase = 1 / (num_show * num_pages_per_img)
+
+// consent form help from: https://gitlab.pavlovia.org/beckerla/language-analysis/blob/master/html/language-analysis.js
+// sample function that might be used to check if a subject has given consent to participate.
+var check_consent = function(elem) {
+	if ($('#consent_checkbox').is(':checked') && $('#read_checkbox').is(':checked') && $('#age_checkbox').is(':checked')) {
+		return true;
+	}
+	else {
+		alert("If you wish to participate, you must check the boxes in the Consent Form.");
+		return false;
+	}
+	return false;
+};
+var consent = {
+	type:'external-html',
+	url: "consent.html",
+	cont_btn: "start",
+	check_fn: check_consent
+}
+
+if (official_run){
+	timeline.push(consent)
+}
+
+var total_time = 60;
+var base_rate = 12;
+var bonus_rate = 13;
+
+var base_pay = base_rate * (total_time/60);
+var bonus_pay = bonus_rate * (total_time/60) - (base_pay);
+
+base_pay = parseFloat(base_pay).toFixed(2);
+bonus_pay = parseFloat(bonus_pay).toFixed(2);
+
+var model_use_instruction ='<p> The model\'s prediction will show up as yellow highlighting over that answer choice. If shown, you are free to use or ignore the information when selecting your answer however you wish.</p>'
+
+var instruction_pages = ['<p> Welcome! </p> <p> We are conducting an experiment to understand how people answer various mathematics questions without any form of support. Your answers will be used to inform machine learning, cognitive science, and human-computer interaction research. </p>' +
+'<p> This experiment should take at most <strong>' + total_time + ' minutes</strong>. </br></br> You will be compensated at a base rate of $'+ base_rate + '/hour for a total of <strong>$' + base_pay + '</strong>, which you will receive as long as you complete the study.</p>',
+'<p> We take your compensation and time seriously! The email for the main experimenter is <strong>umangbhatt@nyu.edu</strong>. </br></br> Please write this down now, and email us with your Prolific ID and the subject line <i>Human experiment compensation</i> if you have problems submitting this task, or if it takes much more time than expected. </p>',
+'<p> In this experiment, you will be seeing <i>multiple-choice questions</i> covering topics from elementary school mathematics, high school mathematics, and college mathematics.</p>' +
+'<p> Your task is to determine the <strong>most likely answer</strong> for each question. You can select this category by clicking on the radio button associated with your answer. </p>'];
+
+//if ((variant == "justM1") || (variant == "justM2")){
+
+//	instruction_pages.push('<p> During the tasks, you will also see the <strong>prediction of an AI-based model</strong>.</p>' +
+//	model_use_instruction) // +
+//}
+//else if (variant.includes("alg") || variant.includes("popStats") || variant.includes("fixedPop")){
+
+//	instruction_pages.push('<p> During the tasks, you may also see the <strong>prediction of an AI-based model</strong>.</p>' +
+//	model_use_instruction + '<p> On other trials, you will see no additional information. Don\'t be alarmed if you do not see the model prediction on any given example.</p>')
+//}
+
+instruction_pages.push('<p> We encourage you to try to work through each problem. You will not be able to continue to the next question until at least <strong>10 seconds</strong> have passed. The SUBMIT button will change from grey to blue when you are able to click to move to the next page whenever you are ready to answer.</p>' +
+'<p> Of course you can take longer than 10 seconds on any question if needed! It may be very challenging to determine the answer for some questions. Others may be easy. <strong>Please try your best</strong> regardless. </p>')
+
+instruction_pages.push(
+	'<p> You will receive a <strong>bonus</strong> of up to a rate of $' + bonus_rate + '/hour (+$' + bonus_pay + ') based on how many questions you correctly answer.</p>' +
+	'<p> You will be informed whether or not you are correct after each trial. </p>');
+
+instruction_pages.push(
+	'<p> We realize that some topics may be outside of your expertise. If you don\'t know an answer, please give it your best guess! <strong>Please do not search on Google</strong>, or any other web-browser during the experiment.</p>' +
+	'<p> There is room to note topics you are unfamiliar with in the comment section at the end of the survey. We will take this into account with the bonus and will help us inform the design of future studies. </p>'
+)
+
+instruction_pages.push('<p> You will see a total of <strong>' + num_show + ' questions</strong>.</p>');
+
+instruction_pages.push('<p> When you are ready, please click <strong>\"Next\"</strong> to complete a quick comprehension check, before moving on to the experiment. </p>' +
+'<p> Please make sure to window size is in full screen, or substantially large enough, to properly view the questions. </p>');
+
+var instructions = {
+	type: "instructions",
+	pages: instruction_pages,
+	show_clickable_nav: true,
+};
+
+var correct_task_description = "The answer to a mutliple choice question."
+
+var correct_perspective_description = "During <i>some</i> of the trials."
+var incorrect_perspective_description = "During <i>all</i> of the trials."
+var incorrect_perspective_description2 = "During <i>none</i> of the trials."
+
+var comprehension_check = {
+	type: "survey-multi-choice",
+	preamble: ["<p align='center'>Check your knowledge before you begin. If you don't know the answers, don't worry; we will show you the instructions again.</p>"],
+	questions: [
+		{
+			prompt: "What will you be asked to determine in this task?",
+			options: [correct_task_description, "The least likely answer to a multiple choice question.", "The most likely categories of an image.",],
+			required: true
+		},
+
+		{
+			prompt: "How will you select your answer?",
+			options: ["Typing in a text box.", "Clicking on a radio button.", "Selecting from a dropdown menu."],
+			required: true
+		},
+
+
+	],
+	on_finish: function (data) {
+		var responses = data.response;
+		if (responses['Q0'] == correct_task_description &&  responses['Q1'] == "Clicking on a radio button." ){
+			familiarization_check_correct = true;
+		} else {
+			familiarization_check_correct = false;
+		}
+	}
+}
+
+var familiarization_timeline = [instructions, comprehension_check]
+
+var familiarization_loop = {
+	timeline: familiarization_timeline,
+	loop_function: function (data) {
+		return !familiarization_check_correct;
+	}
+}
+
+if (official_run){
+	timeline.push(familiarization_loop)
+}
+
+var final_instructions = {
+	type: "instructions",
+	pages: ['<p> Now you are ready to begin! </p>' +
+	'<p> Please click <strong>\"Next\"</strong> to start the experiment. Note, it may take a moment to load at the start.</p>' +
+	'<p> Thank you for participating in our study! </p>'],
+	show_clickable_nav: true
+};
+timeline.push(final_instructions)
+
+// keep track of global info that's sent/received from server interactions
+// update accordingly
+var modelPredLabel = ""
+var humanPredLabel = ""
+var humanCorrect = false // store the most recent human correctness
+var currentInterfaceType = "defer"
+var modelEntropy=null
+var score = 0
+var tot = 0
+var humanPred = 0
+var friendPredLabel = ""
+var friendPredDist = []
+var modelPredDist = []
+
+var question=""
+var options=""
+
+
+var getGrammaticalArticle = function(word){
+	// return "a" or "an" depending on whether start of word is a vowel
+	var firstChar = word[0]
+	if (["a", "e", "i", "o", "u"].includes(firstChar)){
+		return "an"
+	} else {
+		return "a"
+	}
+}
+
+// start off w/ button not clicked -- adjust if so, and reset per trial
+// global variable is hacky... might change later
+var btnClicked=false
+// global to measure button press time -- note, may not be super precise...
+// help from: https://stackoverflow.com/questions/313893/how-to-measure-time-taken-by-a-function-to-execute
+var trialStartTime = null;
+var btnClickedTime = null
+
+var onClickHandler = function(show_txt) {
+
+	btnClickedTime = new Date().getTime();
+
+	// alert(show_txt.value)
+	btnClicked=true
+
+	// can also maintain time information here and/or num clicks
+	// modified from: https://github.com/jspsych/jsPsych/discussions/1931
+	document.getElementById('modelInfo').style.cssText = document.getElementById('modelInfo').style.cssText.replace("hidden","visible");
+
+};
+
+
+var storeHumanSelect = function(selectIdx) {
+	// help from: https://stackoverflow.com/questions/647282/is-there-an-onselect-event-or-equivalent-for-html-select
+	humanPred = selectIdx
+}
+
+var human_support_button = '<button id="human-support-btn" class="jspsych-btn" style="width: 130px; margin-left: 20px; color: white;" disabled>Human Support</button>';
+var custom_submit_button = '<button id="custom-submit-btn" class="jspsych-btn" style="width: 130px; color: white;" disabled>Submit</button>';
+var llm_support_button = '<button id="llm-support-btn" class="jspsych-btn" style="width: 130px; margin-left: 20px; color: white;" disabled>LLM Support</button>';
+
+var human_support_clicks = 0;
+var llm_support_clicks = 0;
+
+var main_page = {
+  type: 'survey-html-form',
+  html: function() {
+    var human_corrupted = jsPsych.timelineVariable('human_corrupted')
+    if (human_corrupted == 1){
+      var img = jsPsych.timelineVariable('corrupted_filename')
+      console.log("img name: ", img)
+    } else {
+      var img = jsPsych.timelineVariable('clean_filename')
+    }
+    img = "imgs/" + img
+    var topic = jsPsych.timelineVariable('display_topic')
+    btnClicked = false
+    console.log("INTERFACE: ", currentInterfaceType)
+    modelPredLabel = jsPsych.timelineVariable('llm_answer')
+    friendPredLabel = jsPsych.timelineVariable('label')
+    question = jsPsych.timelineVariable("question")
+    options = jsPsych.timelineVariable("options")
+
+    if (no_server){
+      console.log("no server: ", no_server)
+      currentInterfaceType = jsPsych.timelineVariable('action')
+      console.log("REVISED INTERFACE: ", currentInterfaceType)
+    }
+
+    if (tot != 0){
+      var currentScoreTxt = '<div id="runningScore"><p class="score"><strong>Your Score: </strong></br>' + score + ' out of ' + tot + '</p></div></div>'
+    } else {
+      var currentScoreTxt = '<div id="runningScore"><p class="score"><strong>Your Score: </p><p style="text-align: center;"> - </strong></p></div></div>'
+    }
+
+    var interfaceHtmlTxt = `
+      <div class='outer_card'>
+        <div class='inner_card'>
+          <div class="first_row">
+            <div class="headerInst">
+              <h2>Please answer the question about <strong>${topic}</strong> by selecting exactly one of the answers below. `
+
+    //var aiInstructionTxt = `An AI model's predicted answer is marked in <span class="highlight">yellow</span>.`
+	var aiInstructionTxt = `An AI model's predicted answer can be used by clicking on LLM Support.`
+
+    if (currentInterfaceType == "showPred"){
+      console.log("adding instruction!!!", currentInterfaceType)
+      interfaceHtmlTxt += aiInstructionTxt
+    }
+
+    interfaceHtmlTxt += `</h2></div>`
+    interfaceHtmlTxt += currentScoreTxt
+
+    var questionTxt = '<div class="question">' + question
+
+    modelPredLabel = jsPsych.timelineVariable("llm_answer")
+    var trueLabel = jsPsych.timelineVariable("label")
+
+    if ((impoversh_fp) && (jsPsych.timelineVariable("topic").includes("policy"))){
+      var possAnswers = new Set(classNames);
+      possAnswers.delete(trueLabel)
+      modelPredLabel = possAnswers.values().next().value;
+    }
+
+    var optionsTxt = '<form action="">'
+    for (var i = 0; i < options.length; i++){
+      var option = options[i];
+      if (!(official_run) && (simulate)){
+        var optionHTML = '<p><input type="radio" id=' + classNames[i] + ' name=mcAnswer value=' + classNames[i] + '>'
+          + '<label for=' + classNames[i] + '>'
+      } else {
+        var optionHTML = '<p><input type="radio" id=' + classNames[i] + ' name=mcAnswer value=' + classNames[i] + ' required>'
+          + '<label for=' + classNames[i] + '>'
+      }
+
+      console.log("INTERFACE!!", (currentInterfaceType == "showPred"), (classNames[i] == modelPredLabel))
+
+      if ((currentInterfaceType == "showPred") & (classNames[i] == modelPredLabel)){
+        // optionHTML += '<span class="highlight">' + option + '</span>'
+		optionHTML += '<span>' + option + '</span>'
+      } else {
+        optionHTML += option
+      }
+      optionHTML += '</label></p>'
+      optionsTxt += optionHTML
+    }
+    optionsTxt += "</form></div>"
+
+    interfaceHtmlTxt += '<div>' + questionTxt + optionsTxt
+
+    var debug_panel = "<div><strong>True Label:</strong> " + jsPsych.timelineVariable("label") + " <strong>Current Arm: </strong>" + currentInterfaceType + "</div>"
+
+    if (!official_run){
+      interfaceHtmlTxt += debug_panel
+    }
+
+    console.log("model pred label: ", modelPredLabel, " true: ", trueLabel)
+
+    var html = `
+      <style>
+        #jspsych-survey-html-form-next {
+          display: none !important;
+        }
+      </style>
+      <div id="jspsych-survey-html-form-preamble">
+        ${interfaceHtmlTxt}
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 10px;">
+        ${custom_submit_button}
+        ${human_support_button}
+        ${llm_support_button}
+      </div>
+      <div id="correct-answer" style="display: none; margin-top: 10px;"></div>
+      <div id="llm-answer" style="display: none; margin-top: 10px;"></div>
+    `;
+
+    return html;
+  },
+  button_label: 'Continue',
+  on_load: function() {
+    const customSubmitBtn = document.getElementById('custom-submit-btn');
+    const humanSupportBtn = document.getElementById('human-support-btn');
+    const llmSupportBtn = document.getElementById('llm-support-btn');
+
+    customSubmitBtn.disabled = true;
+    customSubmitBtn.style.background = "#A8A8A8";
+    humanSupportBtn.disabled = true;
+    humanSupportBtn.style.background = "#A8A8A8";
+    llmSupportBtn.disabled = true;
+    llmSupportBtn.style.background = "#A8A8A8";
+
+    // Enable buttons after a delay
+    const time_delay = official_run ? 10000 : 100;
+    setTimeout(function() {
+        customSubmitBtn.disabled = false;
+        humanSupportBtn.disabled = false;
+        llmSupportBtn.disabled = false;
+        customSubmitBtn.style.background = "#2e436b";
+        humanSupportBtn.style.background = "#2e436b";
+        llmSupportBtn.style.background = "#2e436b";
+    }, time_delay);
+
+    // Add click event listeners to disable other buttons
+    humanSupportBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        human_support_clicks++;
+        humanSupportBtn.disabled = true; // Disable itself
+        humanSupportBtn.style.background = "#A8A8A8";
+        llmSupportBtn.disabled = true;  // Disable LLM Support
+        llmSupportBtn.style.background = "#A8A8A8";
+        const correctAnswer = friendPredLabel;
+        const correctOption = options[classNames.indexOf(correctAnswer)];
+        document.getElementById('correct-answer').innerHTML = `Human Response: ${correctOption}`;
+        document.getElementById('correct-answer').style.display = 'block';
+        jsPsych.data.addDataToLastTrial({
+            human_support_used: true,
+            human_support_clicks: human_support_clicks
+        });
+    });
+
+    llmSupportBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        llm_support_clicks++;
+        llmSupportBtn.disabled = true; // Disable itself
+        llmSupportBtn.style.background = "#A8A8A8";
+        humanSupportBtn.disabled = true;  // Disable Human Support
+        humanSupportBtn.style.background = "#A8A8A8";
+        const llmAnswer = modelPredLabel;
+        const llmOption = options[classNames.indexOf(llmAnswer)];
+        document.getElementById('llm-answer').innerHTML = `LLM Prediction: ${llmOption}`;
+        document.getElementById('llm-answer').style.display = 'block';
+        jsPsych.data.addDataToLastTrial({
+            llm_support_used: true,
+            llm_support_clicks: llm_support_clicks
+        });
+    });
+
+    // Add click event to custom submit button
+    customSubmitBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#jspsych-survey-html-form-next').click();
+    });
+},
+on_finish: function(data) {
+    humanPred = data.response["mcAnswer"];
+    console.log("human pred: ", humanPred);
+    jsPsych.data.get().push(humanPred);
+
+    var trueCategory = jsPsych.timelineVariable("label");
+    var scoreIncrement = 0; // Default increment is 0
+
+    if (humanPred == trueCategory) {
+      humanCorrect = true;
+
+      // Adjust score increment based on support used
+      if (human_support_clicks > 0) {
+        scoreIncrement = 0.5; // Human support used
+      } else if (llm_support_clicks > 0) {
+        scoreIncrement = 0.8; // LLM support used
+      } else {
+        scoreIncrement = 1; // No support used
+      }
+
+      score += scoreIncrement; // Increment score
+    } else {
+      humanCorrect = false;
+    }
+
+    tot += 1;
+    humanPredLabel = humanPred;
+
+    console.log("Human Pred: ", humanPred, " Correct? ", humanCorrect);
+    console.log("CHECK: model pred label: ", modelPredLabel, " true: ", trueCategory, "SAVING: ", currentInterfaceType);
+
+    if (modelPredLabel == trueCategory) {
+      modelCorrect = true;
+    } else {
+      modelCorrect = false;
+    }
+
+    var curr_progress_bar_value = jsPsych.getProgressBarCompleted();
+    jsPsych.setProgressBar(curr_progress_bar_value + progress_bar_increase);
+
+    if (btnClicked) {
+      timeToClick = btnClickedTime - trialStartTime;
+    } else {
+      timeToClick = -1;
+    }
+
+    var trialData = {
+      "btn_clicked": btnClicked,
+      "score": score,
+      "timeToClick": timeToClick,
+      "modelPred": modelPredLabel,
+      "humanCorrect": humanCorrect,
+      "modelCorrect": modelCorrect,
+      "interfaceType": currentInterfaceType,
+      "modelPredDist": modelPredDist,
+      "human_support_used": human_support_clicks > 0,
+      "human_support_clicks": human_support_clicks,
+      "llm_support_used": llm_support_clicks > 0,
+      "llm_support_clicks": llm_support_clicks
+    };
+
+    jsPsych.data.get().push(trialData);
+
+    trialStartTime = null;
+    btnClickedTime = null;
+    humanPred = 0;
+    human_support_clicks = 0;
+    llm_support_clicks = 0;
+  }
+};
+
+document.addEventListener('click', function(e) {
+  if (e.target && e.target.id === 'human-support-btn') {
+    e.preventDefault();
+    human_support_clicks++;
+    var correctAnswer = friendPredLabel;
+    var correctOption = options[classNames.indexOf(correctAnswer)];
+    document.getElementById('correct-answer').innerHTML = `Human Response: ${correctOption}`;
+    document.getElementById('correct-answer').style.display = 'block';
+    
+    jsPsych.data.addDataToLastTrial({
+      human_support_used: true,
+      human_support_clicks: human_support_clicks
+    });
+  }
+  
+  if (e.target && e.target.id === 'llm-support-btn') {
+    e.preventDefault();
+    llm_support_clicks++;
+    var llmAnswer = modelPredLabel;
+    var llmOption = options[classNames.indexOf(llmAnswer)];
+    document.getElementById('llm-answer').innerHTML = `LLM Prediction: ${llmOption}`;
+    document.getElementById('llm-answer').style.display = 'block';
+    
+    jsPsych.data.addDataToLastTrial({
+      llm_support_used: true,
+      llm_support_clicks: llm_support_clicks
+    });
+  }
+});
+
+
+
+var current_filename = null
+var unique_subj_id = null
+var example_label = null
+var data_split = null
+var img_id = null
+
+var stringToDist = function(distStr) {
+	// convert a string represensentation of a distribution to vector form
+	// e.g., 0.75_0.1_0.05_0_0.1 => [0.75, 0.1, 0.05, 0.0, 0.1]
+
+	var strProbs = distStr.split("_")
+	var strProbs = distStr.split("_")
+	var dist = strProbs.map(x => parseFloat(x));
+	return dist
+}
+
+
+var send_receive = {
+    type: 'call-function',
+    async: true,
+    func: function(done) {
+        if (no_server) {
+            // Directly return "defer" if no server
+            done("defer");
+        } else {
+            // Simulate server response, replace the XMLHttpRequest with direct defer response
+            var simulatedResponse = "defer";
+            done(simulatedResponse);
+        }
+    }
+};
+
+
+	var feedback_page = {
+	    type: "image-keyboard-response",
+	    stimulus: function(){
+
+				if (humanCorrect) {
+					return "feedback_imgs/Correct.png"
+				}else{
+					return "feedback_imgs/Incorrect.png"
+				}
+
+			},
+	    choices: "NO_KEYS",
+	    prompt: function(){
+
+
+
+				var feedback_txt = "<p class='feedback'>"
+
+				if (humanCorrect) {
+					feedback_txt += "Correct! </p>"
+				}else{
+					feedback_txt +="Incorrect. </p>"
+
+				}
+
+				//if (currentInterfaceType == "showPred" || "defer"){
+				//	console.log("interface was show: ", currentInterfaceType)
+				//	if (modelCorrect){
+				//		feedback_txt += "<p class='feedback'> AI Model: <strong><span style='color: #0b661f'>CORRECT</span></strong></p>"
+				//	} else{
+				//		feedback_txt += "<p class='feedback'> AI Model: <strong><span style='color: #87230c'>INCORRECT</span></strong></p>"
+				//	}
+				//}
+
+
+				return feedback_txt
+
+			},
+	    trial_duration: 1500 // 1500
+	};
+
+	var rating_task = {
+		timeline: [send_receive, main_page, feedback_page],
+		timeline_variables: batchData,
+		data: {
+			question: jsPsych.timelineVariable('question'),
+			options: jsPsych.timelineVariable('options'),
+			llm_answer: jsPsych.timelineVariable('llm_answer'),
+			task: 'modiste',
+			subj_id: jsPsych.timelineVariable('id'),
+			label: jsPsych.timelineVariable('label'),
+			example_id: jsPsych.timelineVariable('example_idx'),
+			variant: variant,//jsPsych.timelineVariable('variant'),
+			main_variant: main_variant,
+			topic: jsPsych.timelineVariable('topic'),
+			prompt: jsPsych.timelineVariable('prompt'),
+		},
+		sample: {
+			type: 'custom',
+			fn: function (t) {
+				// t = set of indices from 0 to n-1, where n = # of trials in stimuli variable
+				// returns a set of indices for trials
+				return ordered_idxs
+			}
+		},
+		on_load: function(){
+			trialStartTime=new Date().getTime();
+			btnClickedTime=null
+		},
+
+	}
+
+	timeline.push(rating_task);
+
+	var comments_block = {
+		type: "survey-text",
+		preamble: "<p>Thank you for participating in our study!</p>" +
+		"<p>Click <strong>\"Finish\"</strong> to complete the experiment and receive compensation. If you have any comments about the experiment, please let us know in the form below.</p>",
+		questions: [
+			{prompt: "Were the instructions clear? (On a scale of 1-10, with 10 being very clear)"},
+			{prompt: "How challenging did you find the questions? (On a scale of 1-10, with 10 being very challenging)"},
+
+			// {prompt: "How challenging was it to choose which category to select as most probable per image? (On a scale of 1-10, with 10 being very challenging)"},
+			// {prompt: "How challenging was it to come up a category when you did not have access to the model prediction? (On a scale of 1-10, with 10 being very challenging)"},
+			// {prompt: "Did you trust the predictions you received from the model? (On a scale of 1-10, with 10 being always trusted)"},
+				{prompt: "Were there any question topics you struggled with?", rows: 2, columns: 50},
+				{prompt: "Were there any question topics you were always very confident in?", rows: 2, columns: 50},
+			// {prompt: "Were there any particular qualities of images you considered when coming up with your response?", rows:5,columns:50},
+			{prompt: "Did you notice the delay before you were allowed to submit a response?", rows: 1, columns: 50},
+			{prompt: "If you answered yes to noticing the delay, was it too long?", rows: 1, columns: 50},
+
+			{prompt: "Do you have any additional comments to share with us?", rows: 5, columns: 50}],
+			button_label: "Finish",
+		};
+		timeline.push(comments_block)
+
+	/* finish connection with pavlovia.org */
+	var pavlovia_finish = {
+		type: "pavlovia",
+		command: "finish",
+	};
+	timeline.push(pavlovia_finish);
+
+	// todo: update w/ proper prolific link!!
+	jsPsych.init({
+		timeline: timeline,
+		on_finish: function () {
+			// send back to main prolific link
+			// window.location = "https://www.google.com/"
+
+			//window.location = "https://app.prolific.co/submissions/complete?cc=2681CCA7"
+			window.location = "https://app.prolific.com/submissions/complete?cc=C19URSPX"
+		},
+		show_progress_bar: true,
+		auto_update_progress_bar: false,
+
+	});
