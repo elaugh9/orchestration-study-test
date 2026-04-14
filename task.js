@@ -445,6 +445,11 @@ function buildTimeline() {
             data.difficulty         = trialData.difficulty;
             data.maze_id            = trialData.maze.id;
             data.ai_purchased       = condition === 'elective-budget' ? _aiPurchasedThisTrial : 'N/A';
+            // Reconstruct budget at trial start (before AI deduction and before bonus)
+            var budgetAtTrialStart = budget
+                + (_aiPurchasedThisTrial ? trialData.ai_price : 0)
+                - (is_correct ? CORRECT_BONUS : 0);
+            data.ai_affordable      = condition === 'elective-budget' ? (budgetAtTrialStart >= trialData.ai_price) : 'N/A';
             data.budget_after       = budget;
             data.participant_answer = participant_answer;
             data.correct_answer     = trialData.maze.c_r;
