@@ -6,13 +6,13 @@ var TRAINING_BUDGET    = 12;  // separate budget for practice — resets to STAR
 var AI_PRICE_CHEAP     = 2;
 var AI_PRICE_EXPENSIVE = 6;
 
-// 24 main trials: 8 per difficulty (4 cheap + 4 expensive)
-var MAIN_PER_DIFF = 8;
-var MAIN_CHEAP_PER_DIFF = 4;
-var MAIN_EXPENSIVE_PER_DIFF = 4;
+// 36 main trials: 12 per difficulty (6 cheap + 6 expensive)
+var MAIN_PER_DIFF = 12;
+var MAIN_CHEAP_PER_DIFF = 6;
+var MAIN_EXPENSIVE_PER_DIFF = 6;
 
-// AI incorrect counts per difficulty — 1 wrong total (easy:1, medium:0, hard:0) = 23/24 ≈ 95% accurate
-var AI_INCORRECT_COUNTS = { easy: 1, medium: 0, hard: 0 };
+// AI incorrect counts per difficulty — 2 wrong total (easy:1, medium:1, hard:0) = 34/36 ≈ 95% accurate
+var AI_INCORRECT_COUNTS = { easy: 1, medium: 1, hard: 0 };
 
 // 6 training trials: 2 per difficulty (1 cheap + 1 expensive)
 var TRAINING_PER_DIFF = 2;
@@ -166,7 +166,7 @@ function buildTrialScreen(trialData, labelText, totalLabel) {
                 var canAfford = budget >= trialData.ai_price;
                 var helpBtn = canAfford
                     ? '<button id="ai-help-btn" class="ai-help-btn" onclick="requestAIHelp()">Request AI Help (' + trialData.ai_price + ' units)</button>'
-                    : '<p class="warning">Insufficient budget for AI help on this trial.</p>';
+                    : '<p class="warning">AI help costs <strong>' + trialData.ai_price + ' units</strong> for this trial, but you only have <strong>' + budget + ' units</strong> remaining.</p>';
                 aiSection = helpBtn +
                             '<div id="ai-recommendation" class="ai-recommendation" style="display:none">AI recommends: <strong>' + trialData.maze.m_r + '</strong></div>';
             }
@@ -238,7 +238,7 @@ function buildTrialScreen(trialData, labelText, totalLabel) {
 // ============================================================
 function buildTimeline() {
     var timeline   = [];
-    var totalMain  = MAIN_PER_DIFF * 3;        // 24
+    var totalMain  = MAIN_PER_DIFF * 3;        // 36
     var totalTrain = TRAINING_PER_DIFF * 3;    // 6
 
     // ----------------------------------------------------------
