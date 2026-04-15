@@ -273,7 +273,7 @@ function buildTimeline() {
             '  <p>The results of this study will be analysed and may be presented at academic conferences or published in journals. Results will be reported in aggregate form, and no individual participant will be identifiable. The anonymised data may also be used in future related research.</p>',
 
             '  <p style="font-size:18px; font-weight:600; margin-top:20px; margin-bottom:4px; color:#2b3952;">Ethical review of the study</p>',
-            '  <p>This project has been approved by the University of Cambridge Department of Computer Science and Technology Ethics Committee.</p>',
+            '  <p>This project has been approved by the Cambridge Institute for Technology and Humanity Ethics Committee.</p>',
 
             '  <p style="font-size:18px; font-weight:600; margin-top:20px; margin-bottom:4px; color:#2b3952;">Contact for further information</p>',
             '  <p>If you have any questions about the study or your participation, please contact: Elaf Almahmoud (<a href="mailto:ea685@cam.ac.uk">ea685@cam.ac.uk</a>)</p>',
@@ -337,7 +337,6 @@ function buildTimeline() {
             '  <p>You can use the AI\'s recommendation or ignore it. The choice is yours.</p>',
             '  <p>You will earn <strong>+' + CORRECT_BONUS + ' units</strong> added to your budget for each correct answer.</p>',
             '  <p>After each answer, rate <strong>how confident</strong> you are on a 1–7 scale.</p>',
-            '  <p>You will <strong>not</strong> receive feedback after each maze.</p>',
             '</div>'
         ].join('');
     } else {
@@ -355,7 +354,6 @@ function buildTimeline() {
             '  <p>Each trial has a cost for AI help. You decide whether it is worth spending your budget.</p>',
             '  <p>You will earn <strong>+' + CORRECT_BONUS + ' units</strong> added to your budget for each correct answer.</p>',
             '  <p>After each answer, rate <strong>how confident</strong> you are on a 1–7 scale.</p>',
-            '  <p>You will <strong>not</strong> receive feedback after each maze.</p>',
             '</div>'
         ].join('');
     }
